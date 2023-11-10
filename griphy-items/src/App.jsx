@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   return (
-    <div style={{display: "flex", alignItems:"center"}}>
+    <div className='container'>
       <img src={giphy} alt="Gif" style={{width:"200px", height: "200px"}}/>
       <p>{cat}</p>
       
