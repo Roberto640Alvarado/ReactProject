@@ -31,11 +31,11 @@ function App() {
   }, []);
 
   return (
-    <>
-      <h1> Hola</h1>
+    <div style={{display: "flex", alignItems:"center"}}>
+      <img src={giphy} alt="Gif" style={{width:"200px", height: "200px"}}/>
       <p>{cat}</p>
-      <img src={giphy} alt="Gif" />
-    </>
+      
+    </div>
   )
 }
 
